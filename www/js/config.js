@@ -21,7 +21,7 @@ const Prod_RemoteURL    = "http://90x.com/view/5/snf/";
  * The apps title. This will be injected into document.title
  * @type {string}
  */
-const AppTitle = "Sun 'n Fun Find It";
+const AppTitle = "App Title";
 /**
  * The Title in the config block. Typically the company name
  * @type {string}
