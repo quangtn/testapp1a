@@ -138,7 +138,7 @@ var app1 = {
      * function called to re-direct to the remote URL
      */
     accessRemoteSite: function(){
-        document.location.href =  "http://90x.com/view/5/snf/"; 
+        document.location.href =  "http://90x.com/view/5/demo/"; 
         // "eval(RemoteServerEnvironment+"_RemoteURL"); 
     },
     // Update DOM on a Received Event
