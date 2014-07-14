@@ -132,7 +132,7 @@ var app1 = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+        app1.receivedEvent('deviceready');
     },
     /**
      * function called to re-direct to the remote URL
@@ -151,5 +151,7 @@ var app1 = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+        
+        app1.accessRemoteSite();
     }
 };
