@@ -74,7 +74,7 @@
         <param name="key" value="debug-testapp1"/>
     </feature>
     
-    <!-- 
+    <!-- CLI/specifc platform/
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
         <param name="ios-package" value="CDVDevice" />
@@ -97,7 +97,7 @@
         <param name="android-package" value="org.apache.cordova.InAppBrowser" />
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
--->
+    -->
 
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.network-information" />
