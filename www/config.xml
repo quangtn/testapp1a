@@ -69,7 +69,7 @@
     <preference name="ios-statusbarstyle" value="default" />
     <preference name="disable-cursor" value="false" />
     
-    <preference name="LogLevel" value="ERROR"/> <!-- VERBOSE -->
+    <preference name="LogLevel" value="VERBOSE"/> <!-- VERBOSE -->
 
     <!-- FEATURES / PLUGINS ------------------------------------------- -->
     <feature name="debug-server" required="true">
