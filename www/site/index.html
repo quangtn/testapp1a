@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>"Sun-n-Fun"</title>
+    <link rel="stylesheet" href="styles/c03e2ed4.vendor.css">
+    <!-- custom vendor CSS -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" href="bower_components/leaflet-0.7.2/leaflet.css">-->
+    <!-- end custom vendor CSS -->
+    <link rel="stylesheet" href="styles/a5176c58.main.css">
+
+    <body ng-app="snfApp" animation="slide-left-right-ios7">
+        <div ng-controller="MainController">
+            <ion-nav-view></ion-nav-view>
+            <!-- No Network Offline -->
+            <div ng-show="noNetwork" class="bar bar-footer bar-assertive no-access-footer">
+                <div class="small-text no-access-msg">Oops! Seems like you don't have network access.</div>
+            </div>
+        </div>
+        <script src="scripts/4b2763ae.vendor.js"></script>
+        <!-- custom vendor folder JS -->
+        <!--<script src="bower_components/leaflet-0.7.2/leaflet.js"></script>-->
+        <!-- end custom vendor JS -->
+        <script src="scripts/25b643cd.scripts.js"></script>
+        <script type="text/javascript">
+            document.addEventListener('deviceready', function () {
+                navigator.splashscreen.hide();
+            }, true);
+            window.onerror = function (msg, url, linenumber) {
+                alert('Error message: ' + msg + '\nURL: ' + url + '\nLine Number: ' + linenumber);
+                console.log('Error message: ' + msg + '\nURL: ' + url + '\nLine Number: ' + linenumber);
+                return true;
+            }
+        </script>
+        <!-- cordova script (this manages the injection of the appropriate cordova file and associated plugins) -->
+        <script src="scripts/cordovaSetup.js"></script>

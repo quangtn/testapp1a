@@ -1,0 +1,20 @@
+<ion-side-menus><ion-pane ion-side-menu-content=""><ion-nav-bar type="bar-calm"></ion-nav-bar><ion-nav-view name="menuContent"></ion-nav-view></ion-pane><ion-side-menu side="left" scroll="true"><header class="bar bar-header bar-dark" ng-click="goHome();"><img src="images/ba7e7d29.logo-56x44.png"><div class="title">SUN'nFUN... find It!</div></header><ion-content has-header="true"><!-- <ul class="list">
+        <a href="#/event/exhibitors" class="item" ng-click="closeMenu()">Exhibitors</a>
+        <a href="#/event/foods" class="item">Foods</a>
+      </ul> --><ul class="list" ng-click="closeMenu()"><li><a href="{{item.link}}" class="item-dark item item-icon-left app-side-menu" ng-repeat="item in menulist" ng-class="item.color"><i ng-class="item.iconClass"></i> {{item.text}}</a></li></ul></ion-content></ion-side-menu><!--<ion-side-menu side="right" scroll="true" ng-controller="POIController">
+		<header class="bar bar-header bar-dark">
+			<img src="images/ba7e7d29.logo-56x44.png">
+			<div class="title" >Points Of Interest</div>
+		</header>
+		<ion-content has-header="true">
+			<ul class="list">
+				<li class="item item-checkbox"
+						ng-repeat="item in poiMenuList | orderBy:'text'">
+					<label class="checkbox">
+						<input type="checkbox" ng-model="item.selected" ng-change="viewPOIChange()">
+					</label>
+					{{ item.text }}
+				</li>
+			</ul>
+		</ion-content>
+	</ion-side-menu>--></ion-side-menus>

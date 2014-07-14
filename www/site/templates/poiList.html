@@ -1,0 +1,9 @@
+<div class="modal" ng-controller="POIController"><ion-content><div class="padding" style="margin-top: 15px"><!--<ul class="list">
+				<li class="item item-checkbox"
+						ng-repeat="item in poiMenuList | orderBy:'text'">
+					<label class="checkbox">
+						<input type="checkbox" ng-model="item.selected" ng-change="viewPOIChange()">
+					</label>
+					{{ item.text }}
+				</li>
+			</ul>--><div class="list"><ion-toggle ng-repeat="item in poiMenuList | orderBy:'text'" ng-model="item.selected" ng-change="viewPOIChange()">{{ item.text }}</ion-toggle></div><button class="button button-stable" ng-click="closePOIModal(true)"><i class="icon ion-android-location"></i> Show Me</button> <button class="button button-stable" ng-click="closePOIModal(false)"><i class="icon ion-close-circled"></i> Close</button></div></ion-content></div>

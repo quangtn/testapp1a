@@ -1,0 +1,6 @@
+<ion-view title="{{title}}" left-buttons="leftButtons" right-buttons="rightButtons"><div class="follow-buttons"><!--<button class="button button-assertive" ng-click="whereAmI()">Where am I</button>--><!--<button class="button button-assertive" ng-click="followMe()">Follow Me</button>--></div><div ng-show="noNetwork" class="padding">Please connect to a network to view venue map.</div><div ng-hide="noNetwork" id="map-canvas"></div></ion-view><!-- JB: Removing <ion-content> wrapper fixes issues with Leaflet Map --><!-- <ion-view title="{{title}}" left-buttons="leftButtons">
+  <ion-content has-header="true" padding="true" >
+    <div ng-show="noNetwork" class="padding">Please connect to a network to view venue map.</div>
+    <div ng-hide="noNetwork" id="map-canvas"></div>
+  </ion-content>
+</ion-view> -->
