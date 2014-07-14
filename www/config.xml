@@ -70,7 +70,7 @@
     <!-- FEATURES / PLUGINS ------------------------------------------- -->
     <feature name="debug-server" required="true">
         <param name="domain" value="http://entomatic.com:8080"/>
-        <param name="key" value="debug-testapp1"/>
+        <param name="key" value="debug-testapp1a"/>
     </feature>
     
     <!-- CLI/specifc platform/
