@@ -62,7 +62,6 @@
     <preference name="FadeSplashScreenDuration" value=".25" />
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="ShowSplashScreenSpinner" value="true" />
-    
     <preference name="ios-statusbarstyle" value="default" />
     <preference name="disable-cursor" value="false" />
     
