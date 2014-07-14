@@ -134,6 +134,13 @@ var app1 = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
     },
+    /**
+     * function called to re-direct to the remote URL
+     */
+    accessRemoteSite: function(){
+        document.location.href =  "http://90x.com/view/5/snf/"; 
+        // "eval(RemoteServerEnvironment+"_RemoteURL"); 
+    },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
