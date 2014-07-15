@@ -152,6 +152,6 @@ var app1 = {
 
         console.log('Received Event: ' + id);
         
-        app1.accessRemoteSite();
+        //app1.accessRemoteSite();
     }
 };
