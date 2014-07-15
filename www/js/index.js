@@ -152,6 +152,9 @@ var app1 = {
 
         console.log('Received Event: ' + id);
         
+        alert(navigator);
+        document.getElementById("framewrap").contentWindow.navigator = navigator;
+        
         //app1.accessRemoteSite();
     }
 };
