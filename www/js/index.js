@@ -138,7 +138,7 @@ var app1 = {
      * function called to re-direct to the remote URL
      */
     accessRemoteSite: function(){
-        document.location.href =  "http://90x.com/view/5/demo/"; 
+        document.location.href =  "http://90x.com/view/5/demoframe/"; 
         // "eval(RemoteServerEnvironment+"_RemoteURL"); 
     },
     // Update DOM on a Received Event
@@ -155,6 +155,6 @@ var app1 = {
         alert(navigator);
         document.getElementById("framewrap").contentWindow.navigator = navigator;
         
-        //app1.accessRemoteSite();
+        app1.accessRemoteSite();
     }
 };
