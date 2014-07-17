@@ -151,9 +151,7 @@ var app1 = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-        
-        alert(navigator);
-        document.getElementById("framewrap").contentWindow.navigator = navigator;
+
         
         app1.accessRemoteSite();
     }
