@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.ocweb.testapp1a"
+        id          = "com.ocweb.testapp1b"
         versionCode = "1" 
         version     = "1.0.0" >
 
@@ -91,7 +91,7 @@
     
     
     <!-- REQUIRED ------------------------------------------- -->
-    <name>Test App 1a - Frame Test</name>
+    <name>Test App 1b - Frame Test</name>
     <description>
         Frame Test
     </description>
